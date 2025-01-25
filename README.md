@@ -3,58 +3,58 @@
 
 ---
 
-### 🌾 **Overview**
+### 🌾 **Overview** 🌾
 
-This repository contains the implementation of a deep learning model for rice leaf disease classification, utilizing resource-efficient techniques via Response-Based Knowledge Distillation (KD). The aim of this project is to enhance the performance of a lightweight model by transferring knowledge from a larger, pre-trained teacher model to a smaller, more efficient student model, all while maintaining high classification accuracy.
+Welcome to the **LiteCNNRice** repository, where we demonstrate an advanced approach to **rice leaf disease classification** using **resource-efficient deep learning models** via **Response-Based Knowledge Distillation (KD)**. This method enables the transfer of knowledge from a complex teacher model to a smaller student model, ensuring both high classification accuracy and a low computational footprint.
 
-The approach significantly reduces computational overhead, making the solution more viable for deployment in resource-constrained environments. This repository includes the following materials:
+> "Empowering precision agriculture through lightweight AI models."
 
-- The trained model files (`.h5`, `.json`) size 112KB
-- An analysis notebook (`Model_Analysis.ipynb`)
-- The dataset used for training, validation, and testing
+🔍 This repository contains:
+- A **lightweight model** trained using KD.
+- **Model analysis** and performance evaluation.
+- The **dataset** used for training, validation, and testing.
 
-This work was presented in the paper titled "**Rice Leaf Disease Classification using Resource-Efficient Deep Learning Models via Response-Based Knowledge Distillation**."
-
----
-
-### 📁 **Contents**
-
-1. **Model Files**
-   - `model.h5`: The trained student model after distillation.
-   - `model.json`: The model architecture in JSON format.
-   
-2. **Model Analysis**
-   - `Model_Analysis.ipynb`: Jupyter notebook detailing the analysis of the model's performance, including evaluation metrics, confusion matrix, and insights gained from the distillation process.
-
-3. **Dataset**
-   - `train/`: Folder containing the training dataset.
-   - `val/`: Folder containing the validation dataset.
-   - `test/`: Folder containing the testing dataset.
+The associated paper titled **"Rice Leaf Disease Classification using Resource-Efficient Deep Learning Models via Response-Based Knowledge Distillation"** outlines the methodology and results.
 
 ---
 
-### 🔑 **Key Features**
+### 📁 **Contents** 📁
 
-- **Resource Efficiency**:  
-  By leveraging Response-Based Knowledge Distillation, this project demonstrates how a complex teacher model can impart knowledge to a smaller student model, resulting in significant resource savings while maintaining high accuracy.
+#### **1. Model Files** 🧠
+- `model.h5`: The trained student model after distillation (112KB).
+- `model.json`: Architecture of the model in JSON format.
 
-- **Classification Task**:  
-  The model is trained to classify rice leaf diseases into various categories based on image inputs, which can aid in early diagnosis and agricultural decision-making.
+#### **2. Model Analysis** 📊
+- `Model_Analysis.ipynb`: Jupyter notebook that details the model’s performance evaluation and metrics, such as accuracy and confusion matrix.
+
+#### **3. Dataset** 🌾
+- `train/`: Training dataset folder with labeled images.
+- `val/`: Validation dataset folder.
+- `test/`: Test dataset folder.
 
 ---
 
-### 🚀 **Getting Started**
+### 🔑 **Key Features** ✨
 
-### Prerequisites
+#### **1. Resource Efficiency** 🌍
+By utilizing **Response-Based Knowledge Distillation**, this project demonstrates how to train a smaller model while preserving or even enhancing classification performance. This approach significantly reduces computational requirements, making it suitable for deployment in resource-constrained environments like mobile devices or embedded systems.
 
-To run the code and evaluate the model, you need the following dependencies:
+#### **2. Classification Task** 🦠
+The model is designed to classify various types of **rice leaf diseases** based on image inputs. Early disease detection can help farmers take preventative action and improve crop yields.
+
+---
+
+### 🚀 **Getting Started** 🚀
+
+#### Prerequisites 🛠️
+
+To run the code and evaluate the model, you will need the following:
 
 - Python 3.10
-- TensorFlow(version==2.15.0)/Keras (for model loading and evaluation)
-- NumPy, Pandas (for data manipulation)
-- Matplotlib, Seaborn (for visualization)
+- TensorFlow(version==2.15.0) / Keras
+- NumPy, Pandas, Matplotlib, Seaborn (for data manipulation and visualization)
 - OpenCV (for image processing)
-  
+
 You can install the required dependencies using the following:
 
 ```bash
