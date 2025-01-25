@@ -38,8 +38,8 @@ This work was presented in the paper titled "**Rice Leaf Disease Classification 
 
 To run the code and evaluate the model, you need the following dependencies:
 
-- Python 3.x
-- TensorFlow/Keras (for model loading and evaluation)
+- Python 3.10
+- TensorFlow(version==2.15.0)/Keras (for model loading and evaluation)
 - NumPy, Pandas (for data manipulation)
 - Matplotlib, Seaborn (for visualization)
 - OpenCV (for image processing)
