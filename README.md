@@ -7,7 +7,7 @@ This repository contains the implementation of a deep learning model for rice le
 
 The approach significantly reduces computational overhead, making the solution more viable for deployment in resource-constrained environments. This repository includes the following materials:
 
-- The trained model files (`.h5`, `.json`)
+- The trained model files (`.h5`, `.json`) size 112KB
 - An analysis notebook (`Model_Analysis.ipynb`)
 - The dataset used for training, validation, and testing
 
